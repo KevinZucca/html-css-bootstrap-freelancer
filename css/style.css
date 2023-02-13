@@ -11,6 +11,14 @@ header {
     color: white;
 }
 
+#form_button {
+    width: 100px;
+}
+
+#form_message {
+    min-height: 200px;
+}
+
 
 
 
