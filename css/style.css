@@ -16,7 +16,7 @@ header ul li {
 }
 
 #form_message {
-    min-height: 200px;
+    padding-bottom: 200px;
 }
 
 .bg_grey {
