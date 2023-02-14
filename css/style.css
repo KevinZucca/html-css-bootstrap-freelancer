@@ -3,12 +3,12 @@ header {
     font-weight: bold;
 }
 
-.bg_green {
-    background-color: #1abc9c;
+header ul li {
+    list-style-type: none;
 }
 
-.white {
-    color: white;
+.bg_green {
+    background-color: #1abc9c;
 }
 
 #form_button {
