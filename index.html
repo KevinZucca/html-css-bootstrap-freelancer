@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap-freelancer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -28,9 +29,18 @@
         <div class="container-fluid bg_green text-white">
             <div class="container jumbo">
                 <div class="col d-flex flex-column align-items-center text-center p-5">
-                    <div class="row">IMG</div>
-                    <div class="row"><h1>START BOOTSTRAP</h1></div>
-                    <div class="row">LINE</div>
+                    <div class="row">
+                        <img class="img-fluid" src="img/avatar.svg" alt="avatar">
+                    </div>
+                    <div class="row py-2"><h1>START BOOTSTRAP</h1></div>
+                    <div class="row d-flex align-items-center pb-2">
+                        <div class="col star_bar"></div>
+                        <div class="col separator_line">
+                            <i class="fa-solid fa-star fs-4"></i>
+                        </div>
+                        <div class="col star_bar"></div>
+                    </div>
+                   
                     <div class="row">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
                 </div>
             </div>
@@ -40,22 +50,38 @@
 
     <main>
         <div class="container-fluid">
-            <div class="container d-flex justify-content-center flex-column">
-                <div class="row up_side d-flex flex-column text-center py-3">
+            <div class="container d-flex justify-content-center text-center flex-column">
+                <div class="row up_side d-flex flex-column py-3">
                     <div class="col">
-                        <h2>PORTFOLIO</h2>
+                        <h2 class="pt-3">PORTFOLIO</h2>
                     </div>
-                    <div class="col">
-                        line
+                    <div class="row d-flex align-items-center pb-2">
+                        <div class="col star_bar dark"></div>
+                        <div class="col separator_line">
+                            <i class="fa-solid fa-star fs-4"></i>
+                        </div>
+                        <div class="col star_bar dark"></div>
                     </div>
                 </div>
-               <div class="row row-cols-3 d-flex justify-content-center text-center">
-                <div class="col p-5">IMMAGINE</div>
-                <div class="col p-5">IMMAGINE</div>
-                <div class="col p-5">IMMAGINE</div>
-                <div class="col p-5">IMMAGINE</div>
-                <div class="col p-5">IMMAGINE</div>
-                <div class="col p-5">IMMAGINE</div>
+               <div class="row row-cols-3 d-flex justify-content-center text-center gy-4 pb-5">
+                <div class="col">
+                    <img class="img-fluid" src="img/cabin.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="img/cake.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="img/circus.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="img/game.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="img/safe.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="img/submarine.png" alt="">
+                </div>
                </div>
             </div>
         </div>
@@ -63,29 +89,37 @@
         
         <div class="container-fluid bg_green pb-5 text-white">
             <div class="container second_section p-5 white d-flex flex-column text-center justify-content-center">
-                <div class="row d-flex flex-column">
-                    <div class="col">
+                <div class="col d-flex flex-column">
+                    <div class="row">
                         <h2>ABOUT</h2>
                     </div>
-                    <div class="col">
-                        line
+                    <div class="row d-flex align-items-center pb-2">
+                        <div class="col star_bar"></div>
+                        <div class="col separator_line">
+                            <i class="fa-solid fa-star fs-4"></i>
+                        </div>
+                        <div class="col star_bar"></div>
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center text-center ">
-                    <div class="col-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, facilis ducimus at modi a sit enim molestiae vero repellendus error. Harum quod aperiam omnis hic recusandae cum similique voluptatem repellendus.</div>
-                    <div class="col-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, facilis ducimus at modi a sit enim molestiae vero repellendus error. Harum quod aperiam omnis hic recusandae cum similique voluptatem repellendus.</div>
+                    <div class="col-5 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, facilis ducimus at modi a sit enim molestiae vero repellendus error. Harum quod aperiam omnis hic recusandae cum similique voluptatem repellendus.</div>
+                    <div class="col-5 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, facilis ducimus at modi a sit enim molestiae vero repellendus error. Harum quod aperiam omnis hic recusandae cum similique voluptatem repellendus.</div>
                 </div>
             </div>
         </div>
 
         <div class="container-fluid">
             <div class="container form p-5">
-                <div class="row d-flex flex-column text-center">
-                    <div class="col">
+                <div class="col d-flex flex-column text-center">
+                    <div class="row">
                         <h2>CONTACT ME</h2>
                     </div>
-                    <div class="col">
-                        line
+                    <div class="row d-flex align-items-center pb-2">
+                        <div class="col star_bar dark"></div>
+                        <div class="col separator_line">
+                            <i class="fa-solid fa-star fs-4"></i>
+                        </div>
+                        <div class="col star_bar dark"></div>
                     </div>
                 </div>
                    
@@ -117,26 +151,44 @@
         <div class="container-fluid bg_grey p-5">
 
             <div class="container footer-up d-flex text-white">
-                <div class="row d-flex justify-content-space-between">
-                    <div class="col">
-                        <div class="row d-flex flex-column text-center">
-                            <div class="col">LOCATION</div>
-                            <div class="col">2215 John Daniel Drive Clark, MO 54243</div>
+                <div class="container">
+                    <div class="row d-flex justify-content-space-between">
+                        <div class="col">
+                            <div class="row d-flex flex-column text-center">
+                                <div class="col">
+                                     <h5>LOCATION</h5>
+                                </div>
+                                <div class="col">
+                                    <p>2215 John Daniel Drive Clark, MO 54243</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="row d-flex flex-column text-center">
-                            <div class="col">AROUND THE WEB</div>
-                            <div class="col">LOGOS</div>
+                        <div class="col">
+                            <div class="row d-flex flex-column text-center">
+                                <div class="col">
+                                    <h5>AROUND THE WEB</h5>
+                                </div>
+                                <div class="col d-flex justify-content-center ">
+                                    <i class="fa-brands p-2 round_logo fa-facebook-f border rounded-circle"></i>
+                                    <i class="fa-brands p-2 round_logo fa-google-plus-g border rounded-circle"></i>
+                                    <i class="fa-brands p-2 round_logo fa-twitter border rounded-circle"></i>
+                                    <i class="fa-brands p-2 round_logo fa-linkedin-in border rounded-circle"></i>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="row d-flex flex-column text-center">
-                            <div class="col">ABOUT FREELANCER</div>
-                            <div class="col">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure in rem veniam est nostrum consequuntur minus eius, assumenda doloribus qui</div>
+                        <div class="col">
+                            <div class="row d-flex flex-column text-center">
+                                <div class="col">
+                                    <h5>ABOUT FREELANCER</h5>
+                                </div>
+                                <div class="col">
+                                    <p>Freelance is a free to use, open source Bootstrap theme created by <span id="green_strong">Start Bootstrap</span></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
 
@@ -144,7 +196,7 @@
             <div class="container footer-down d-flex justify-content-center">
                 <div class="row">
                     <div class="col">
-                        Copyright @ Your Website 2019
+                        <p>Copyright <span><i class="fa-regular fa-copyright"></i></span> Your Website 2019</p>
                     </div>
                 </div>
                 
